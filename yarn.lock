@@ -8035,7 +8035,7 @@ querystringify@^2.1.1:
   resolved "https://registry.npm.taobao.org/querystringify/download/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
   integrity sha1-YOWl/WSn+L+k0qsu1v30yFutFU4=
 
-raf@3.4.1, raf@^3.1.0, raf@^3.3.2, raf@^3.4.0, raf@~3.4.0:
+raf@3.4.1, raf@3.x, raf@^3.1.0, raf@^3.3.2, raf@^3.4.0, raf@~3.4.0:
   version "3.4.1"
   resolved "https://registry.npm.taobao.org/raf/download/raf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
   integrity sha1-B0LpmkplUvRF1z4+4DKK8P8e3jk=
@@ -8131,6 +8131,18 @@ rc-queue-anim@^1.8.4:
     rc-tween-one "^2.5.0"
     react-lifecycles-compat "^3.0.4"
 
+rc-scroll-anim@^2.7.4:
+  version "2.7.4"
+  resolved "https://registry.npm.taobao.org/rc-scroll-anim/download/rc-scroll-anim-2.7.4.tgz#d268528b0de1cf9fb5c1b4691f8235ab552424d2"
+  integrity sha1-0mhSiw3hz5+1wbRpH4I1q1UkJNI=
+  dependencies:
+    babel-runtime "6.x"
+    prop-types "^15.6.0"
+    raf "3.x"
+    rc-tween-one "^2.4.0"
+    react-lifecycles-compat "^3.0.4"
+    tween-functions "1.x"
+
 rc-slider@~8.2.0:
   version "8.2.0"
   resolved "https://registry.npm.taobao.org/rc-slider/download/rc-slider-8.2.0.tgz#ae37d17144cad60e1da6eac0ee4ffcfea0b0a6e8"
@@ -8175,7 +8187,7 @@ rc-trigger@^2.2.2:
     rc-animate "2.x"
     rc-util "^4.4.0"
 
-rc-tween-one@^2.5.0, rc-tween-one@^2.6.8:
+rc-tween-one@^2.4.0, rc-tween-one@^2.5.0, rc-tween-one@^2.6.8:
   version "2.6.8"
   resolved "https://registry.npm.taobao.org/rc-tween-one/download/rc-tween-one-2.6.8.tgz?cache=0&sync_timestamp=1575870794407&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-tween-one%2Fdownload%2Frc-tween-one-2.6.8.tgz#75edf141af491a28b18812dc419efa6b0238e2a7"
   integrity sha1-de3xQa9JGiixiBLcQZ76awI44qc=
@@ -9921,7 +9933,7 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-tween-functions@^1.0.1, tween-functions@~1.2.0:
+tween-functions@1.x, tween-functions@^1.0.1, tween-functions@~1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/tween-functions/download/tween-functions-1.2.0.tgz#1ae3a50e7c60bb3def774eac707acbca73bbc3ff"
   integrity sha1-GuOlDnxguz3vd06scHrLynO7w/8=
