@@ -25,4 +25,4 @@ Tweenone2.propTypes = {
   className: PropTypes.string,
   paused: PropTypes.bool,
 };
-export default Tweenone2
+export default Tweenone2;

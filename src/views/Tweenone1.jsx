@@ -88,4 +88,4 @@ Index.propTypes = {
   paused: PropTypes.bool,
 };
 
-export default Index
+export default Index;

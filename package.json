@@ -6,6 +6,7 @@
     "antd-mobile": "^2.2.13",
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
+    "rc-queue-anim": "^1.8.4",
     "rc-tween-one": "^2.6.8",
     "react": "^16.8.6",
     "react-animate-on-scroll": "^2.1.5",

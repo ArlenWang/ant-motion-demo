@@ -7919,7 +7919,7 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@15.x, prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.x, prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -8121,6 +8121,16 @@ rc-gesture@~0.0.18, rc-gesture@~0.0.22:
   dependencies:
     babel-runtime "6.x"
 
+rc-queue-anim@^1.8.4:
+  version "1.8.4"
+  resolved "https://registry.npm.taobao.org/rc-queue-anim/download/rc-queue-anim-1.8.4.tgz?cache=0&sync_timestamp=1583466154687&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-queue-anim%2Fdownload%2Frc-queue-anim-1.8.4.tgz#ce6a3f9ebc864bb88140aa38cdef0ce180247483"
+  integrity sha1-zmo/nryGS7iBQKo4ze8M4YAkdIM=
+  dependencies:
+    babel-runtime "6.x"
+    prop-types "^15.6.0"
+    rc-tween-one "^2.5.0"
+    react-lifecycles-compat "^3.0.4"
+
 rc-slider@~8.2.0:
   version "8.2.0"
   resolved "https://registry.npm.taobao.org/rc-slider/download/rc-slider-8.2.0.tgz#ae37d17144cad60e1da6eac0ee4ffcfea0b0a6e8"
@@ -8165,7 +8175,7 @@ rc-trigger@^2.2.2:
     rc-animate "2.x"
     rc-util "^4.4.0"
 
-rc-tween-one@^2.6.8:
+rc-tween-one@^2.5.0, rc-tween-one@^2.6.8:
   version "2.6.8"
   resolved "https://registry.npm.taobao.org/rc-tween-one/download/rc-tween-one-2.6.8.tgz?cache=0&sync_timestamp=1575870794407&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-tween-one%2Fdownload%2Frc-tween-one-2.6.8.tgz#75edf141af491a28b18812dc419efa6b0238e2a7"
   integrity sha1-de3xQa9JGiixiBLcQZ76awI44qc=
