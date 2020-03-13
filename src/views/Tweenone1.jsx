@@ -8,7 +8,6 @@ class Index extends React.Component {
   constructor(props) {
     super(props);
     this.moment = null;
-    this.animation = { left: '70%', duration: 3000, ease: 'linear' };//默认 ease: 'easeInOutQuad'
     this.state = {
       moment: null,
       paused: true,
@@ -56,12 +55,11 @@ class Index extends React.Component {
     return (
       <div>
         <TweenOne
-          animation={this.animation}
+          animation={{ x: 800, duration: 3000, ease: 'linear', rotate: 360,transformOrigin:'0 0' }}
           paused={this.state.paused}
           reverse={this.state.reverse}
           moment={this.state.moment}
-          style={{ margin: '40px 20px' }}
-          className="move-box"
+          style={{ width:'285px',height:'285px' }}
         >
           <img src={require('../assets/images/product.jpg')} alt="img"/>
           </TweenOne>
