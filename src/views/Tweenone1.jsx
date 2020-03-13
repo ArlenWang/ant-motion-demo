@@ -8,7 +8,7 @@ class Index extends React.Component {
   constructor(props) {
     super(props);
     this.moment = null;
-    this.animation = { left: '70%', duration: 8000 };
+    this.animation = { left: '70%', duration: 3000, ease: 'linear' };//默认 ease: 'easeInOutQuad'
     this.state = {
       moment: null,
       paused: true,
@@ -43,7 +43,7 @@ class Index extends React.Component {
     });
   }
 
-  onClick = () => {
+  onStart = () => {
     this.setState({
       paused: false,
       reverse: false,
@@ -75,7 +75,7 @@ class Index extends React.Component {
             bottom: 25 
           }}
         >
-          <Button type="primary" onClick={this.onClick}>play</Button>
+          <Button type="primary" onClick={this.onStart}>play</Button>
           <Button type="primary" onClick={this.onPause}>pause</Button>
           <Button type="primary" onClick={this.onReverse}>reverse</Button>
           <Button type="primary" onClick={this.onRestart}>restart</Button>
