@@ -22,7 +22,7 @@ class Index extends React.Component {
   }
   render() {
     return (
-      <div class="col_start W100">
+      <div className="col_start W100">
         <Button type="primary" onClick={this.goT1} className="MT10">TweenOne动画控制</Button>
         <Button type="primary" onClick={this.goT2} className="MT10">TweenOne循环动画</Button>
         <Button type="primary" onClick={this.goA1} className="MT10">过渡css动画</Button>
