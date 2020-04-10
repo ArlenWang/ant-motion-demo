@@ -35,6 +35,7 @@ class Index extends React.Component {
         <Button type="primary" onClick={this.goQ1} className="MT10">队列进出场动画</Button>
         <Button type="primary" onClick={this.goTP1} className="MT10">TweenOne路径</Button>
         <Button type="primary" onClick={this.goTN} className="MT10">数值动画变化</Button>
+        <Button type="primary" onClick={this.goTN} className="MT10">svg线性动画(svg路径缓动显示)</Button>
       </div>
     );
   }

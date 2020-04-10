@@ -6,6 +6,7 @@ import QueueAnim1 from '../views/QueueAnim1';
 import OverPack from '../views/OverPack';
 import TweenonePath1 from '../views/TweenonePath1';
 import TweenoneNumber from '../views/TweenoneNumber';
+import TweenoneDraw from '../views/TweenoneDraw';
 var indexRoutes = [
   { path: "/overpack", name: "OverPack", component: OverPack },
   { path: "/tweenone1", name: "Tweenone1", component: Tweenone1 },
@@ -14,6 +15,7 @@ var indexRoutes = [
   { path: "/queueanim1", name: "QueueAnim1", component: QueueAnim1 },
   { path: "/tweenonepath1", name: "TweenonePath1", component: TweenonePath1 },
   { path: "/tweenonenumber", name: "TweenoneNumber", component: TweenoneNumber },
+  { path: "/tweenonedraw", name: "TweenoneDraw", component: TweenoneDraw},
   { path: "/", name: "Index", component: Index },
   {
     redirect: true,
