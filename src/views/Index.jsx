@@ -23,6 +23,9 @@ class Index extends React.Component {
   goTP1=()=>{
     this.props.history.push("tweenonepath1");
   }
+  goTN=()=>{
+    this.props.history.push("tweenonenumber");
+  }
   render() {
     return (
       <div className="col_start W100">
@@ -31,6 +34,7 @@ class Index extends React.Component {
         <Button type="primary" onClick={this.goA1} className="MT10">过渡css动画</Button>
         <Button type="primary" onClick={this.goQ1} className="MT10">队列进出场动画</Button>
         <Button type="primary" onClick={this.goTP1} className="MT10">TweenOne路径</Button>
+        <Button type="primary" onClick={this.goTN} className="MT10">数值动画变化</Button>
       </div>
     );
   }
