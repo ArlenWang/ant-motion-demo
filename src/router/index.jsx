@@ -4,12 +4,14 @@ import Tweenone2 from '../views/Tweenone2';
 import Animate1 from '../views/Animate1';
 import QueueAnim1 from '../views/QueueAnim1';
 import OverPack from '../views/OverPack';
+import TweenonePath1 from '../views/TweenonePath1';
 var indexRoutes = [
   { path: "/overpack", name: "OverPack", component: OverPack },
   { path: "/tweenone1", name: "Tweenone1", component: Tweenone1 },
   { path: "/tweenone2", name: "Tweenone2", component: Tweenone2 },
   { path: "/animate1", name: "Animate1", component: Animate1 },
   { path: "/queueanim1", name: "QueueAnim1", component: QueueAnim1 },
+  { path: "/tweenonepath1", name: "TweenonePath1", component: TweenonePath1 },
   { path: "/", name: "Index", component: Index },
   {
     redirect: true,
