@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { InputNumber, Button, Checkbox } from 'antd';
+import { InputItem, Button, Checkbox } from 'antd-mobile';
 import TweenOne from 'rc-tween-one';
 import Children from 'rc-tween-one/lib/plugin/ChildrenPlugin';
 
@@ -61,8 +61,8 @@ class TweenoneNumber extends React.Component {
           >
             0
           </TweenOne>
-          <InputNumber 
-            defaultValue={this.state.value}
+          <InputItem 
+            value={this.state.value}
             onChange={this.onChange}
           />
           <Checkbox style={{ margin: '0 16px' }} onChange={this.onChangeMoney}> to money</Checkbox>
