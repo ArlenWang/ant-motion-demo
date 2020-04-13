@@ -7,6 +7,8 @@ import OverPack from '../views/OverPack';
 import TweenonePath1 from '../views/TweenonePath1';
 import TweenoneNumber from '../views/TweenoneNumber';
 import TweenoneDraw from '../views/TweenoneDraw';
+import TweenoneCurve from '../views/TweenoneCurve';
+import TweenoneBezier from '../views/TweenoneBezier';
 var indexRoutes = [
   { path: "/overpack", name: "OverPack", component: OverPack },
   { path: "/tweenone1", name: "Tweenone1", component: Tweenone1 },
@@ -16,6 +18,8 @@ var indexRoutes = [
   { path: "/tweenonepath1", name: "TweenonePath1", component: TweenonePath1 },
   { path: "/tweenonenumber", name: "TweenoneNumber", component: TweenoneNumber },
   { path: "/tweenonedraw", name: "TweenoneDraw", component: TweenoneDraw},
+  { path: "/tweenonecurve", name: "TweenoneCurve", component: TweenoneCurve},
+  { path: "/tweenonebezier", name: "TweenoneBezier", component: TweenoneBezier},
   { path: "/", name: "Index", component: Index },
   {
     redirect: true,

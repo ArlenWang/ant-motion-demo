@@ -26,6 +26,15 @@ class Index extends React.Component {
   goTN=()=>{
     this.props.history.push("tweenonenumber");
   }
+  goTSVG=()=>{
+    this.props.history.push("tweenonedraw");
+  }
+  goPath=()=>{
+    this.props.history.push("tweenonecurve");
+  }
+  goBezier=()=>{
+    this.props.history.push("tweenonebezier");
+  }
   render() {
     return (
       <div className="col_start W100">
@@ -35,7 +44,9 @@ class Index extends React.Component {
         <Button type="primary" onClick={this.goQ1} className="MT10">队列进出场动画</Button>
         <Button type="primary" onClick={this.goTP1} className="MT10">TweenOne路径</Button>
         <Button type="primary" onClick={this.goTN} className="MT10">数值动画变化</Button>
-        <Button type="primary" onClick={this.goTN} className="MT10">svg线性动画(svg路径缓动显示)</Button>
+        <Button type="primary" onClick={this.goTSVG} className="MT10">svg线性动画(svg路径缓动显示)</Button>
+        <Button type="primary" onClick={this.goPath} className="MT10">按path路径运动</Button>
+        <Button type="primary" onClick={this.goBezier} className="MT10">贝赛尔曲线动画</Button>
       </div>
     );
   }

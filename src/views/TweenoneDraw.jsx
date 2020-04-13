@@ -5,7 +5,7 @@ import SvgDrawPlugin from 'rc-tween-one/lib/plugin/SvgDrawPlugin';
 import PropTypes from 'prop-types';
 TweenOne.plugins.push(SvgDrawPlugin);
 
-const dataStartArr = ['30 150', '50% 50%', '30% 200', '20 30%', 0, '100%'];
+const dataStartArr = [30,'30 150', '50% 50%', '30% 200', '20 30%', 0, '100%'];
 let i = 0;
 class TweenoneDraw extends React.Component {
 
